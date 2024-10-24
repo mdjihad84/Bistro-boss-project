@@ -16,6 +16,7 @@ const Menu = () => {
   const offered = menu.filter((item) => item.category === "offered");
   const dessert = menu.filter((item) => item.category === "dessert");
   const pizza = menu.filter((item) => item.category === "pizza");
+  const salad = menu.filter((item) => item.category === "salad");
   const Soups = menu.filter((item) => item.category === "Soups");
   //   console.log(offered);
   return (
@@ -24,7 +25,7 @@ const Menu = () => {
         <title>Bistro | Our Menu</title>
       </Helmet>
       {/* offered section */}
-      <Cover img={menuImg} title={"our menu"} />
+      <Cover img={menuImg} title={"Our Menu"} subtitle={"Would you like to try a dish?"}/>
       <CategoryTitle subtitle={"Don't miss"} title={"TODAY'S OFFER"} />
       <div className="grid lg:grid-cols-2 gap-4 p-8 mt-5">
         {offered.map((item) => (
@@ -43,10 +44,18 @@ const Menu = () => {
         coverTitle={"desserts"}
         items={dessert}
       />
+      
       {/* PIZZA section */}
       <MenuCategory coverImg={dessertImg}
        coverTitle={"pizza"}
       items={pizza} />
+
+      {/* Salad section */}
+      <MenuCategory
+        coverImg={saladImg}
+        coverTitle={"salad"}
+        items={salad}
+      />
 
       {/* Soups section */}
       <MenuCategory
@@ -57,5 +66,4 @@ const Menu = () => {
     </div>
   );
 };
-
 export default Menu;
