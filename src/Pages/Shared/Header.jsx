@@ -1,4 +1,4 @@
-import { Link, NavLink } from "react-router-dom";
+import {NavLink} from "react-router-dom";
 const Header = () => {
   return (
     <div className="navbar bg-black text-white bg-opacity-35 fixed z-40 w-[1284px]">
@@ -10,14 +10,12 @@ const Header = () => {
               className="h-5 w-5"
               fill="none"
               viewBox="0 0 24 24"
-              stroke="currentColor"
-            >
+              stroke="currentColor">
               <path
                 strokeLinecap="round"
                 strokeLinejoin="round"
                 strokeWidth="2"
-                d="M4 6h16M4 12h8m-8 6h16"
-              />
+                d="M4 6h16M4 12h8m-8 6h16"/>
             </svg>
           </div>
           <ul

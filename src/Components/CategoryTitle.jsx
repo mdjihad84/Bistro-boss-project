@@ -1,4 +1,3 @@
-import React from "react";
 
 const CategoryTitle = ({ subtitle, title }) => {
   return (

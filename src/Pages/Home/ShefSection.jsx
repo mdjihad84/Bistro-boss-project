@@ -8,7 +8,6 @@ const ShefPage = () => {
             <div>
                 <SectionTitle subtitle="---Should Try---" title="CHEF RECOMMENDS" />
             </div>
-
             {/* Card Section */}
             <div className="flex flex-col sm:flex-row justify-center gap-10">
                 {Menu.slice(0, 3).map((card, index) => (
@@ -31,5 +30,4 @@ const ShefPage = () => {
         </div>
     );
 }
-
 export default ShefPage;

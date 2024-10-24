@@ -1,7 +1,7 @@
-import React from "react";
-import Cover from "../Shared/Cover/Cover";
+
+import Cover from "../Shared/Cover";
 import CategoryTitle from "../../Components/CategoryTitle";
-import MenuItem from "../Shared/MenuItem/MenuItem";
+import MenuItem from "../Shared/MenuItem";
 
 const MenuCategory = ({ coverImg, coverTitle, cateSub, cateMain, items }) => {
   return (

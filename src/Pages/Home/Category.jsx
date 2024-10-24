@@ -1,18 +1,15 @@
-import React from "react";
-import CategoryTitle from "../../../Components/CategoryTitle";
-// Import Swiper React components
+
+import CategoryTitle from "../../Components/CategoryTitle";
 import { Swiper, SwiperSlide } from "swiper/react";
-// Import Swiper styles
 import "swiper/css";
 import "swiper/css/pagination";
-// import required modules
 import { Pagination } from "swiper/modules";
 
-import img1 from "../../../assets/home/slide1.jpg";
-import img2 from "../../../assets/home/slide2.jpg";
-import img3 from "../../../assets/home/slide3.jpg";
-import img4 from "../../../assets/home/slide4.jpg";
-import img5 from "../../../assets/home/slide5.jpg";
+import img1 from "../../assets/home/slide1.jpg";
+import img2 from "../../assets/home/slide2.jpg";
+import img3 from "../../assets/home/slide3.jpg";
+import img4 from "../../assets/home/slide4.jpg";
+import img5 from "../../assets/home/slide5.jpg";
 
 const Category = () => {
   return (
@@ -28,8 +25,8 @@ const Category = () => {
           clickable: true,
         }}
         modules={[Pagination]}
-        className="mySwiper"
-      >
+        className="mySwiper">
+          
         <SwiperSlide className="mb-16">
           <img src={img1} alt="" />
           <h1 className="text-white text-[12px] md:text-2xl lg:text-2xl text-center -mt-[1.5rem] md:-mt-16  ">

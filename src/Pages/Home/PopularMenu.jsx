@@ -1,7 +1,7 @@
 
-import CategoryTitle from "../../../Components/CategoryTitle";
-import MenuItem from "../../Shared/MenuItem/MenuItem";
-import useMenu from "../../../hooks/useMenu";
+import CategoryTitle from "../../Components/CategoryTitle";
+import MenuItem from "../Shared/MenuItem";
+import useMenu from "../../hooks/useMenu";
 
 const PopularMenu = () => {
   const [menu] = useMenu();

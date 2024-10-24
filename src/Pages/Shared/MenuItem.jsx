@@ -1,4 +1,3 @@
-import React from "react";
 
 const MenuItem = ({ img, title, price, recipe }) => {
   return (
@@ -8,10 +7,9 @@ const MenuItem = ({ img, title, price, recipe }) => {
         <img
           src={img}
           alt=""
-          className="object-cover w-full h-full rounded-bl-[200px] rounded-br-[200px] rounded-tr-[200px] "
-        />
+          className="object-cover w-full h-full rounded-bl-[200px] rounded-br-[200px] rounded-tr-[200px] "/>
       </div>
-      {/* food details section */}
+      {/* food section */}
       <div className="">
         <div className="flex justify-between  items-center mb-2 mt-1">
           <h1>{title} ------------------</h1>

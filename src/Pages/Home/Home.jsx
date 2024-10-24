@@ -1,12 +1,12 @@
 
-import Banner from "../Banner/Banner";
-import Category from "../Category/Category";
-import ChefService from "../ChefService/ChefService";
-import Menu from "../PopularMenu/PopularMenu";
-import ContactSection from "../ContactSection";
-import ShefSection from "../ShefSection";
-import Featured from "../Featured";
-import Testimonials from "../Testimonials";
+import Banner from "./Banner";
+import Category from "./Category";
+import ChefService from "./ChefService";
+import Menu from "./PopularMenu";
+import ContactSection from "./ContactSection";
+import ShefSection from "./ShefSection";
+import Featured from "./Featured";
+import Testimonials from "./Testimonials";
 import { Helmet } from "react-helmet-async";
 
 const Home = () => {

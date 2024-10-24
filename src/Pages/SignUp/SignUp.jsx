@@ -1,4 +1,4 @@
-import React from "react";
+
 import "@fortawesome/fontawesome-free/css/all.min.css";
 import img1 from "../../assets/others/authentication.png";
 import img2 from "../../assets/others/authentication2.png";
