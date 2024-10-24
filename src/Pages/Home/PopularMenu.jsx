@@ -1,5 +1,5 @@
 
-import CategoryTitle from "../../Components/CategoryTitle";
+import SectionTitle from "../../Components/SectionTitle";
 import MenuItem from "../Shared/MenuItem";
 import useMenu from "../../hooks/useMenu";
 
@@ -8,7 +8,7 @@ const PopularMenu = () => {
   const popularItem = menu.filter((item) => item.category === "popular");
   return (
     <div>
-      <CategoryTitle subtitle={"Check it out"} title={"FROM OUR MENU"} />
+      <SectionTitle subtitle={"Check it out"} title={"FROM OUR MENU"} />
       <div className="grid lg:grid-cols-2 gap-4">
         {popularItem.map((item) => (
           <MenuItem

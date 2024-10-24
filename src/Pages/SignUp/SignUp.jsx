@@ -1,7 +1,7 @@
 
 import "@fortawesome/fontawesome-free/css/all.min.css";
-import img1 from "../../assets/others/authentication.png";
-import img2 from "../../assets/others/authentication2.png";
+import SingUpImg1 from "../../assets/others/authentication.png";
+import SingUpImg2 from "../../assets/others/authentication2.png";
 import { Helmet } from "react-helmet-async";
 
 const SignUp = () => {
@@ -11,13 +11,13 @@ const SignUp = () => {
         <title>Bistro | SignUp</title>
       </Helmet>
       <div
-        style={{ backgroundImage: `url(${img1})` }}
+        style={{ backgroundImage: `url(${SingUpImg1})` }}
         className="bg-cover bg-center h-screen">
         <div className="flex flex-col w-full lg:flex-row-reverse items-center mx-auto h-full">
 
           {/* image section */}
           <div className="lg:w-[50%]">
-            <img src={img2} alt="" />
+            <img src={SingUpImg2} alt="" />
           </div>
 
           {/* form section */}
@@ -40,6 +40,7 @@ const SignUp = () => {
                   placeholder="Enter your password"
                   className="w-[350px] h-[35px] mb-4  p-4 text-base bg-white"
                   id="2"/>
+
                 <label className="block text-gray-700 text-sm font-bold mb-2"></label>
                 <input
                   type="text"
@@ -64,6 +65,7 @@ const SignUp = () => {
                 </h1>
               </div>
             </form>
+
             <h3 className="text-center text-black text-lg mt-3 font-medium">Or sign in with</h3>
             <div className="flex justify-center gap-10 mt-3">
               <a className="w-[52px] h-[52px] rounded-full border border-solid border-black border-[2px] flex items-center justify-center" href="https://www.facebook.com/jahidulislam.jihad.773124/" target="_blank">
@@ -82,5 +84,4 @@ const SignUp = () => {
     </>
   );
 };
-
 export default SignUp;

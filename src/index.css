@@ -3,18 +3,13 @@
 @tailwind utilities;
 
 @font-face {
-  font-family: "cinzel"; /*Can be any text*/
+  font-family: "cinzel";
   src: url("./assets/fonts/Cinzel-VariableFont_wght.ttf") format("truetype");
 }
 
 .parallax {
-  /* The image used */
   background-image: url("./assets/home/chef-service.jpg");
-
-  /* Set a specific height */
   min-height: 500px;
-
-  /* Create the parallax scrolling effect */
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;

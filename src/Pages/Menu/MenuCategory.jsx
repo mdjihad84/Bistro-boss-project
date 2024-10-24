@@ -1,6 +1,6 @@
 
 import Cover from "../Shared/Cover";
-import CategoryTitle from "../../Components/CategoryTitle";
+import CategoryTitle from "../../Components/SectionTitle";
 import MenuItem from "../Shared/MenuItem";
 
 const MenuCategory = ({ coverImg, coverTitle, cateSub, cateMain, items }) => {

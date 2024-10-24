@@ -1,6 +1,6 @@
 
-import img1 from "../../assets/others/authentication.png";
-import img2 from "../../assets/others/authentication2.png";
+import authenticationImg1 from "../../assets/others/authentication.png";
+import authenticationImg2 from "../../assets/others/authentication2.png";
 import { Link } from "react-router-dom";
 import { Helmet } from "react-helmet-async";
 
@@ -11,12 +11,13 @@ const Login = () => {
         <title>Bistro | Login</title>
       </Helmet>
       <div
-        style={{ backgroundImage: `url(${img1})` }}
+        style={{ backgroundImage: `url(${authenticationImg1})` }}
         className="bg-cover bg-center h-screen">
         <div className="flex flex-col w-full lg:flex-row items-center mx-auto h-full">
+
           {/* image section */}
           <div className="lg:w-[50%]">
-            <img src={img2} alt="" />
+            <img src={authenticationImg2} alt="" />
           </div>
 
           {/* form section */}
@@ -75,11 +76,7 @@ const Login = () => {
           </div>
         </div>
       </div>
-
-
-    
     </>
   );
 };
-
 export default Login;

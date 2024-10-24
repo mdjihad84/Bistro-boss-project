@@ -55,7 +55,6 @@ const Header = () => {
             BISTRO BOSS
           </NavLink>
         </h1>
-        {/* <a className="btn btn-ghost text-xl"> Restaurant</a> */}
       </div>
       <div className="navbar-end hidden lg:flex">
         <ul className="menu menu-horizontal px-1 uppercase font-semibold">
@@ -91,5 +90,4 @@ const Header = () => {
     </div>
   );
 };
-
 export default Header;

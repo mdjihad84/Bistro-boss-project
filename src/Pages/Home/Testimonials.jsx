@@ -1,5 +1,4 @@
-import Images1 from "../../assets/Home/Group.png";
-
+import TestimonialsImg from "../../assets/Home/Group.png";
 const Testimonials = () => {
     return (
         <div className="py-10">
@@ -17,7 +16,7 @@ const Testimonials = () => {
                 <i className="fa-regular fa-star"></i>
             </div>
             <div className="mt-2">
-                <img src={Images1} className="mx-auto max-w-[400px] md:max-w-[600px]" alt="Group-img" />
+                <img src={TestimonialsImg} className="mx-auto max-w-[400px] md:max-w-[600px]" alt="Group-img" />
                 <p className="mx-auto w-full max-w-[920px] text-center mt-4 px-4">
                     Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humor and the like). It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.
                 </p>

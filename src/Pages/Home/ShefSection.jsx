@@ -1,4 +1,4 @@
-import SectionTitle from "../../Components/CategoryTitle";
+import SectionTitle from "../../Components/SectionTitle";
 import Menu from '../../../public/menu.json';
 
 const ShefPage = () => {

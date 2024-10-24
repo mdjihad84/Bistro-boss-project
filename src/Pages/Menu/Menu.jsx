@@ -8,7 +8,7 @@ import SoupsImg from "../../assets/menu/soup-bg.jpg";
 import Cover from "../Shared/Cover";
 import useMenu from "../../hooks/useMenu";
 import MenuItem from "../Shared/MenuItem";
-import CategoryTitle from "../../Components/CategoryTitle";
+import CategoryTitle from "../../Components/SectionTitle";
 import MenuCategory from "./MenuCategory";
 
 const Menu = () => {

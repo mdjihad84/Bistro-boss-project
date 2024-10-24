@@ -4,7 +4,7 @@ export default {
   theme: {
     extend: {
       fontFamily: {
-        cinzel: ["cinzel", "serif"], // 'serif' is a fallback
+        cinzel: ["cinzel", "serif"],
       },
     },
   },
