@@ -21,7 +21,7 @@ const PopularMenu = () => {
         ))}
       </div>
       <div className="text-center my-4">
-        <button className="py-[20px] px-[30px] rounded-[8px] border-b-[3px]  border-black">
+        <button className="py-[20px] px-[30px] rounded-[8px] border-b-[3px] border-black">
           View Full Menu
         </button>
       </div>
