@@ -12,7 +12,7 @@ const ShopCard = ({ items }) => {
         <h2 className="card-title text-black font-semibold text-2xl">{name}</h2>
         <p className="text-black font-normal text-base">{recipe}</p>
         <div className="card-actions">
-          <button className="px-6 py-2 rounded-sm uppercase border border-b-2 border-b-gray-700 bg-[#E8E8E8]">
+          <button className="px-6 py-2 rounded-sm uppercase border border-b-2 border-b-gray-700 bg-[#E8E8E8] text-black">
             Add to cart
           </button>
         </div>

@@ -27,15 +27,13 @@ const Header = () => {
               </NavLink>
             </li>
             <li>
-              <a>CONTACT us</a>
-            </li>
-            <li>
-              <a>DASHBOARD</a>
-            </li>
-
-            <li>
               <NavLink to="/Menu" className={({ isActive }) => (isActive ? "bg-red-700 text-white hover:bg-red-800" : "")}>
                 Our Menu
+              </NavLink>
+            </li>
+            <li>
+              <NavLink to="/Shop" className={({ isActive }) => (isActive ? "bg-red-700 text-white hover:bg-red-800" : "")}>
+                Our Shop
               </NavLink>
             </li>
             <li>
@@ -64,17 +62,13 @@ const Header = () => {
             </NavLink>
           </li>
           <li>
-            <a>CONTACT us</a>
+            <NavLink to="/Menu" className={({ isActive }) => (isActive ? "bg-red-700 text-white hover:bg-red-800" : "")}>
+              Our Menu
+            </NavLink>
           </li>
           <li>
             <NavLink to="/Shop" className={({ isActive }) => (isActive ? "bg-red-700 text-white hover:bg-red-800" : "")}>
-              Shop
-            </NavLink>
-          </li>
-
-          <li>
-            <NavLink to="/Menu" className={({ isActive }) => (isActive ? "bg-red-700 text-white hover:bg-red-800" : "")}>
-              Our Menu
+              Our Shop
             </NavLink>
           </li>
           <li>
