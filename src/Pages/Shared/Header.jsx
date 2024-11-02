@@ -67,7 +67,9 @@ const Header = () => {
             <a>CONTACT us</a>
           </li>
           <li>
-            <a>DASHBOARD</a>
+            <NavLink to="/Shop" className={({ isActive }) => (isActive ? "bg-red-700 text-white hover:bg-red-800" : "")}>
+              Shop
+            </NavLink>
           </li>
 
           <li>
