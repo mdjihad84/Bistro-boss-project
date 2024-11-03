@@ -1,5 +1,5 @@
 
-import CategoryTitle from "../../Components/SectionTitle";
+import SectionTitle from "../../Components/SectionTitle";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/pagination";
@@ -14,7 +14,7 @@ import img5 from "../../assets/home/slide5.jpg";
 const Category = () => {
   return (
     <div className="">
-      <CategoryTitle
+      <SectionTitle
         subtitle={"From 11:00am to 10:00pm"}
         title={"special menu"}/>
 

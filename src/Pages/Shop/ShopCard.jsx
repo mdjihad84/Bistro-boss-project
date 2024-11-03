@@ -1,7 +1,7 @@
 const ShopCard = ({ items }) => {
   const { image, name, price, recipe } = items;
   return (
-    <div className="card card-compact w-96 shadow-xl relative">
+    <div className="card w-full max-w-[350px] h-[485px] bg-[#F3F3F3] mx-auto shadow-xl relative">
       <figure>
         <img src={image} alt="Shoes" />
         <div className="absolute text-center bg-black w-[60px] h-[25px] text-white top-[12px] right-[12px]">

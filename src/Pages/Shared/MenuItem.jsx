@@ -15,7 +15,7 @@ const MenuItem = ({ img, title, price, recipe }) => {
           <h1>{title} --------------</h1>
           <p>${price}</p>
         </div>
-        <h2 className="text-xs sm:text-[12px]">{recipe}</h2>
+        <h2 className="lg:text-[18px] text-xs sm:text-[12px]">{recipe}</h2>
       </div>
     </div>
   );
