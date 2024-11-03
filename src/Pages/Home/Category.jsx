@@ -29,46 +29,58 @@ const Category = () => {
           
         <SwiperSlide className="mb-16">
           <img src={img1} alt="" />
-          <h1 className="text-white text-[12px] md:text-2xl lg:text-2xl text-center -mt-[1.5rem] md:-mt-16  ">
+          <h1 className="text-white text-[12px] md:text-2xl lg:text-2xl text-center -mt-[1.5rem] md:-mt-16 font-semibold">
             Salads
           </h1>
         </SwiperSlide>
 
         <SwiperSlide>
           <img src={img2} alt="" />
-          <h1 className="text-white text-[12px] md:text-2xl lg:text-2xl text-center -mt-[1.5rem] md:-mt-16   ">
+          <h1 className="text-white text-[12px] md:text-2xl lg:text-2xl text-center -mt-[1.5rem] md:-mt-16 font-semibold">
             Pizza
           </h1>
         </SwiperSlide>
 
         <SwiperSlide>
           <img src={img3} alt="" />
-          <h1 className="text-white text-[12px] md:text-2xl lg:text-2xl text-center -mt-[1.5rem] md:-mt-16  ">
+          <h1 className="text-white text-[12px] md:text-2xl lg:text-2xl text-center -mt-[1.5rem] md:-mt-16 font-semibold">
             Soups
           </h1>
         </SwiperSlide>
 
         <SwiperSlide>
           <img src={img4} alt="" />
-          <h1 className="text-white text-[12px] md:text-2xl lg:text-2xl text-center -mt-[1.5rem] md:-mt-16  ">
+          <h1 className="text-white text-[12px] md:text-2xl lg:text-2xl text-center -mt-[1.5rem] md:-mt-16 font-semibold">
             Cake
           </h1>
         </SwiperSlide>
 
         <SwiperSlide>
-          <img src={img5} alt="" />
+          <img src={img1} alt="" />
+          <h1 className="text-white text-[12px] md:text-2xl lg:text-2xl text-center -mt-[1.5rem] md:-mt-16 font-semibold">
+            Salad
+          </h1>
+        </SwiperSlide>
+
+        <SwiperSlide>
+          <img src={img3} alt="" />
+          <h1 className="text-white text-[12px] md:text-2xl lg:text-2xl text-center -mt-[1.5rem] md:-mt-16 font-semibold">
+            Soups
+          </h1>
         </SwiperSlide>
 
         <SwiperSlide>
           <img src={img1} alt="" />
+          <h1 className="text-white text-[12px] md:text-2xl lg:text-2xl text-center -mt-[1.5rem] md:-mt-16 font-semibold">
+            Salad
+          </h1>
         </SwiperSlide>
 
         <SwiperSlide>
-          <img src={img1} alt="" />
-        </SwiperSlide>
-
-        <SwiperSlide>
-          <img src={img1} alt="" />
+          <img src={img2} alt="" />
+          <h1 className="text-white text-[12px] md:text-2xl lg:text-2xl text-center -mt-[1.5rem] md:-mt-16 font-semibold">
+            Pizza
+          </h1>
         </SwiperSlide>
       </Swiper>
     </div>
