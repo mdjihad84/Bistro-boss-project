@@ -14,7 +14,6 @@ const NextArrow = (props) => {
         </div>
     );
 };
-
 const PrevArrow = (props) => {
     const { onClick } = props;
     return (
@@ -80,7 +79,6 @@ const TestimonialsCarousel = () => {
                     <h3 className="text-center text-[#CD9003] text-3xl mt-4">JOHN SMITH</h3>
                 </div>
             </div>
-            {/* Repeat the above block for additional testimonials */}
         </Slider>
     );
 };
