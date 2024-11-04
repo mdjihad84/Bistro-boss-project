@@ -1,9 +1,9 @@
-import React from 'react';
+
 
 const componentName = () => {
   return (
     <div>
-      <h1>this is login page</h1>
+      <h1>Service</h1>
     </div>
   );
 };

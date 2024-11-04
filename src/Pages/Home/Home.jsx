@@ -1,12 +1,12 @@
 
-import Banner from "./Banner";
-import Category from "./Category";
-import ChefService from "./ChefService";
-import Menu from "./PopularMenu";
-import ContactSection from "./ContactSection";
-import ShefSection from "./ShefSection";
-import Featured from "./Featured";
-import Testimonials from "./Testimonials";
+import Hero from "./Hero";
+import About from "./About";
+import Service from "./Service";
+import Contact from "./Contact";
+import Product from "./Product";
+import OurTeam from "./OurTeam";
+import Features from "./Features";
+import Testimonial from "./Testimonial";
 import { Helmet } from "react-helmet-async";
 
 const Home = () => {
@@ -15,15 +15,15 @@ const Home = () => {
       <Helmet>
         <title>Bistro | Home</title>
       </Helmet>
-      <Banner />
+      <Hero/>
       <div className="p-8">
-        <Category />
-        <ChefService />
-        <Menu />
-        <ContactSection/>
-        <ShefSection/>
-        <Featured/>
-        <Testimonials/>
+        <About />
+        <Service />
+        <Contact />
+        <Product/>
+        <OurTeam/>
+        <Features/>
+        <Testimonial/>
       </div>
     </div>
   );

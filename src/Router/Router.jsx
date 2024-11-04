@@ -6,7 +6,6 @@ import SignUp from "../Pages/SignUp/SignUp";
 import Menu from "../Pages/Menu/Menu";
 import Shop from "../Pages/Shop/Shop";
 
-
 export const router = createBrowserRouter([
   {
     path: "/",

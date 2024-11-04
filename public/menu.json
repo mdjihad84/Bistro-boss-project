@@ -14,6 +14,13 @@
     "image": "https://i.ibb.co.com/B3sDjpy/slide1.jpg"
   },
   {
+    "id": 2,
+    "name": "CHICKEN BREAST",
+    "price": 12.5,
+    "description": "Roasted duck breast potato and a griottine cherry sauce (served pink) with gratin potato and a griottine cherry sauce",
+    "image": "https://i.ibb.co.com/B3sDjpy/slide1.jpg"
+  },
+  {
     "_id": "642c155b2c4774f05c36ee7c",
     "name": "Escalope de Veau",
     "recipe": "Roasted duck breast (served pink) with gratin potato and a griottine cherry sauce",
