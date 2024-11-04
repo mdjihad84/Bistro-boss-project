@@ -1,9 +1,9 @@
-import React from 'react';
+
 
 const componentName = () => {
   return (
     <div>
-      <h1>Featured</h1>
+     <h1>u</h1>
     </div>
   );
 };
