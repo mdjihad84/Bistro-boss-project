@@ -14,18 +14,8 @@ const ComponentName = () => {
           There are many variations of passages of available, but the majority have suffered alteration in some form.
         </p>
         <div className="flex space-x-4 justify-center">
-        <button
-        type="button"
-        className="bg-transparent text-white w-[170px] h-[56px] rounded border border-white hover:bg-[#FF3811] active:bg-[#FF3811] transition duration-300"
-      >
-        Discover More
-      </button>
-          <button
-            type="button"
-            className="bg-transparent text-white w-[170px] h-[56px] rounded border border-white hover:bg-[#FF3811] transition duration-300"
-          >
-            Latest Project
-          </button>
+          <button type="button" className="bg-transparent text-white w-[170px] h-[56px] rounded border border-white hover:bg-[#FF3811] transition duration-300">Latest Project</button>
+          <button type="button" className="bg-transparent text-white w-[170px] h-[56px] rounded border border-white hover:bg-[#FF3811] transition duration-300">Latest Project</button>
         </div>
       </div>
     </div>
